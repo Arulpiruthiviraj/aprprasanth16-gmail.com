@@ -1,0 +1,68 @@
+[
+  {
+    "id": "cd87f728-c15f-440b-8a2f-6938cdc97517",
+    "data": [
+      {
+        "text": "what are the upcoming events in ",
+        "userDefined": false
+      },
+      {
+        "text": "april",
+        "alias": "date-period",
+        "meta": "@sys.date-period",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "38550474-31b1-4d20-9012-96dfadd9c45c",
+    "data": [
+      {
+        "text": "what are the upcoming events in ",
+        "userDefined": false
+      },
+      {
+        "text": "march",
+        "alias": "date-period",
+        "meta": "@sys.date-period",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fc291481-b096-4378-8a5f-ba5daffce045",
+    "data": [
+      {
+        "text": "what are the upcoming events after ",
+        "userDefined": false
+      },
+      {
+        "text": "march 3rd",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

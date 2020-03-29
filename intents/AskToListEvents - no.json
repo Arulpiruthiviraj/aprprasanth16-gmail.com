@@ -1,0 +1,37 @@
+{
+  "id": "f6ceea99-33f3-4716-827c-559fbc6b6faf",
+  "parentId": "2219ab71-4bba-40e7-8887-0b4425ce77b0",
+  "rootParentId": "2219ab71-4bba-40e7-8887-0b4425ce77b0",
+  "name": "AskToListEvents - no",
+  "auto": true,
+  "contexts": [
+    "AskToListEvents-followup",
+    "ScheduleInCalendar_yes"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AskToListEvents.AskToListEvents-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Thanks for talking with  WeTech Bot"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

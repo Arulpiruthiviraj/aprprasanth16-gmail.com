@@ -1,0 +1,49 @@
+{
+  "id": "7a6ea21d-3101-41b6-96f0-dddf7eac91ed",
+  "parentId": "aaa9f12a-2be0-4738-9e98-c1d14a397e73",
+  "rootParentId": "2219ab71-4bba-40e7-8887-0b4425ce77b0",
+  "name": "scheduleTheDate",
+  "auto": true,
+  "contexts": [
+    "AskToListEvents-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AskToListEvents.AskToListEvents-yes.AskToListEvents-yes-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "76295e4b-6f41-468a-b99b-81dab5caae47",
+          "required": false,
+          "dataType": "@event",
+          "name": "event",
+          "value": "$event",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "$event added to your calendar"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "89226bbb-ca5d-456d-ae3e-39c6f74e7d06",
+    "data": [
+      {
+        "text": "IEEE Women in Engineering Leadership Summit",
+        "alias": "event",
+        "meta": "@event",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "2020",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4c21302c-22e3-4761-a6f1-6397d52de283",
+    "data": [
+      {
+        "text": "APMA",
+        "alias": "event",
+        "meta": "@event",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b7b37501-af60-4d8c-a916-486387d4fe29",
+    "data": [
+      {
+        "text": "WECofC June After Business Mini - Trade Show",
+        "alias": "event",
+        "meta": "@event",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "34d15a10-54b8-4f4e-a4bc-d7a3cc89cb3a",
+    "data": [
+      {
+        "text": "REGIONAL ALLIANCE MEETING",
+        "alias": "event",
+        "meta": "@event",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

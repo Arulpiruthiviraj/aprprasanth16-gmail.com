@@ -1,0 +1,85 @@
+{
+  "id": "aaa9f12a-2be0-4738-9e98-c1d14a397e73",
+  "parentId": "2219ab71-4bba-40e7-8887-0b4425ce77b0",
+  "rootParentId": "2219ab71-4bba-40e7-8887-0b4425ce77b0",
+  "name": "AskToListEventsYes",
+  "auto": true,
+  "contexts": [
+    "AskToListEvents-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AskToListEvents.AskToListEvents-yes",
+      "affectedContexts": [
+        {
+          "name": "AskToListEvents-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9eac6afa-987f-499f-b127-a984f7570b8b",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "event",
+          "value": "$event",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what event you wanna add?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "778c321d-3315-43c8-b31b-5dd628c9e00b",
+          "required": false,
+          "dataType": "",
+          "name": "userDate",
+          "value": "#AskToListEvents-followup.date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "cce92dc5-fcb2-4176-8f05-5a0a28e274b6",
+          "required": false,
+          "dataType": "",
+          "name": "userDatePeriod",
+          "value": "#AskToListEvents-followup.date-period",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
